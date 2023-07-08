@@ -1,0 +1,31 @@
+baseURL =""
+languageCode = "en-us"
+title = "Music Hub"
+theme = "PaperMod"
+
+[params]
+#[homeInfoParams]
+#title = "Welcome"
+#content = "Welcome to my music hub"
+
+#[socialIcons]
+#name = "facebook"
+#url = "https://www.facebook.com/"
+
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+[menu]
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "categories"
+name = "All Albums"
+url = "/categoria/"
+weight = 20
