@@ -29,3 +29,9 @@ identifier = "categories"
 name = "All Albums"
 url = "/categoria/"
 weight = 20
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+     unsafe ="true"
